@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire - Tudo Sobre o Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Free Fire</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre o Jogo</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#armas">Armas</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#campeonatos">Campeonatos</a></li>
+                <li><a href="#modos">Modos de Jogo</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Jogo</h2>
+            <p>Free Fire é um popular jogo de battle royale desenvolvido pela Garena, lançado em 2017. Em uma ilha deserta, até 50 jogadores competem para ser o último sobrevivente. O jogo é conhecido por suas partidas rápidas e mecânicas dinâmicas, que incentivam a estratégia e a ação.</p>
+            <p>A história do Free Fire começa com seu desenvolvimento voltado para dispositivos móveis, proporcionando uma experiência acessível e envolvente. Desde seu lançamento, o jogo conquistou milhões de jogadores ao redor do mundo, destacando-se especialmente em países da América Latina e na Ásia.</p>
+            <p>Com atualizações constantes, Free Fire introduz novos personagens, armas, eventos e modos de jogo, mantendo a comunidade engajada e entusiasmada.</p>
+        </section>
+
+        <section id="personagens">
+            <h2>Personagens</h2>
+            <p>Conheça os personagens e suas habilidades únicas!</p>
+            <div class="cards" id="lista-personagens"></div>
+            <button onclick="mostrarPersonagens()">Mostrar Personagens</button>
+        </section>
+
+        <section id="armas">
+            <h2>Armas</h2>
+            <p>Explore as armas mais populares e suas características.</p>
+            <div class="cards" id="lista-armas"></div>
+            <button onclick="mostrarArmas()">Mostrar Armas</button>
+        </section>
+
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <p>Acompanhe os eventos e novidades do Free Fire!</p>
+            <ul id="lista-eventos"></ul>
+            <button onclick="mostrarEventos()">Mostrar Eventos</button>
+        </section>
+
+        <section id="campeonatos">
+            <h2>Campeonatos</h2>
+            <p>Participe e acompanhe os principais campeonatos do Free Fire!</p>
+            <ul id="lista-campeonatos"></ul>
+            <button onclick="mostrarCampeonatos()">Mostrar Campeonatos</button>
+        </section>
+
+        <section id="modos">
+            <h2>Modos de Jogo</h2>
+            <h3>Modo Battle Royale Ranqueado</h3>
+            <p>No modo Battle Royale Ranqueado, os jogadores enfrentam até 50 oponentes em um mapa vasto, onde a estratégia e a habilidade são essenciais.</p>
+            <h3>Modo CS Ranqueado</h3>
+            <p>O modo Clash Squad Ranqueado é uma experiência de combate em equipe...</p>
+            <h3>Salas Personalizadas</h3>
+            <p>As salas personalizadas permitem que os jogadores criem partidas privadas...</p>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas</h2>
+            <p>Melhore seu jogo com essas dicas essenciais!</p>
+            <div class="galeria" id="lista-dicas"></div>
+            <button onclick="mostrarDicas()">Mostrar Dicas</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Free Fire Fansite</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
